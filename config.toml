@@ -1,0 +1,60 @@
+baseurl         = "https://hibacrackattack.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Hiba Abbas"
+  subtitle    = "Hello World"
+
+  cover       = "uploads/spaceBack.jpeg"
+  description = "Hiba Abbas' pretty awesome website"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "eueung"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "HA"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Earth"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "student"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/project/"
+  weight = 100
+
+[[menu.main]]
+  name = "Learn"
+  url = "/categories/learn/"
+  weight = 99
+
+[[menu.main]]
+  name = "Google"
+  url = "https://google.com/"
+  weight = 95
